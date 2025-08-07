@@ -1,26 +1,27 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+#discovertext{
+  font-family: "Poppins", sans-serif;
+  font-weight:bold;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+#findText{
+  font-family: "Poppins", sans-serif;
+  font-weight:400;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+#searchHotels{
+   margin-left:560;
+   margin-top: 30;
+}
+#hotelPackages{
+  /* text-shadow: 2px 2px 5px rgb(165, 164, 164); */
+  font-size: xx-large;
+  color: rgb(36, 36, 36);
+  font-weight: bold;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+#packagesSection{
+  font-family: "Poppins", sans-serif;
 }
