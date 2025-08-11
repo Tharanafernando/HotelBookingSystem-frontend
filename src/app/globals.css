@@ -42,3 +42,15 @@ font-family: "Roboto", sans-serif;
   margin-left: 22;
   font-family: "Roboto", sans-serif;
 }
+#packageListName{
+  font-family: "Poppins", sans-serif;
+}
+
+#packageCard{
+  height: 392;
+  width: 392;
+}
+
+#packageImage{
+  width: 392;
+}
