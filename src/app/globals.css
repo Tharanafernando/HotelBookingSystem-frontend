@@ -42,7 +42,7 @@ font-family: "Roboto", sans-serif;
   margin-left: 22;
   font-family: "Roboto", sans-serif;
 }
-#packageListName{
+#packageListName, #destinationDetails{
   font-family: "Poppins", sans-serif;
 }
 
@@ -53,4 +53,8 @@ font-family: "Roboto", sans-serif;
 
 #packageImage{
   width: 392;
+}
+
+#availableHotels{
+font-weight:100;
 }

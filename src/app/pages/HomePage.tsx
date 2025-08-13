@@ -1,3 +1,5 @@
+import Activity from "../components/Activities"
+import Destinations from "../components/Destinations"
 import Filters from "../components/filters"
 import HotelPackages from "../components/hotelPackages"
 import Navigation from "../components/navigation"
@@ -26,7 +28,13 @@ export default function HomePage(){
         </div>
          <section>
                 <HotelPackages/>
-            </section>
+        </section>
+        <section className="mt-20">
+            <Destinations/>
+        </section>
+        <section>
+            <Activity/>
+        </section>
         </>
 
         

@@ -5,35 +5,6 @@ import { useEffect, useState } from "react"
 import packagesList from "@/Services/HotelPackageService/hotelPackageService"
 
 export default function HotelPackages(){
-    // const packages = [
-    //     {
-    //         "id": 1,
-    //         "name": "Ocean Paradise Resort",
-    //         "price": "$800",
-    //         "location": "Maldivs",
-    //         "days": 5,
-    //         "nights": 4,
-    //         "image": "http://localhost:3000/hotelPackages/ocean paradise resort.jpg"
-    //     },
-    //     {
-    //         "id": 2,
-    //         "name": "Alpine Luxury Lodge",
-    //         "price": "$649",
-    //         "location": "Switzerland",
-    //         "days": 5,
-    //         "nights": 4,
-    //         "image": "http://localhost:3000/hotelPackages/alpine lodge.jpg"
-    //     },
-    //     {
-    //         "id": 3,
-    //         "name": "Metropolitan Grand",
-    //         "price": "$299",
-    //         "location": "New York",
-    //         "days": 5,
-    //         "nights": 4,
-    //         "image": "http://localhost:3000/hotelPackages/metropolitan-palace.jpg"
-    //     }
-    // ]
 
     const [packageList,setPackageList] = useState([])
 
