@@ -1,0 +1,9 @@
+const BASE_URL = process.env.NEXT_PUBLIC_BACKEND_URL
+
+const ExternalAPI = {
+    RESPONSE_ROOM_AVAILABILTY:`${BASE_URL}/${process.env.NEXT_PUBLIC_ROOM_AVAILABILITY}`,
+    RESPONSE_HOTEL_DETAILS:`${BASE_URL}/${process.env.NEXT_PUBLIC_HOTEL_DETAILS}`
+
+}
+
+export default ExternalAPI

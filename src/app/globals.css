@@ -58,3 +58,30 @@ font-family: "Roboto", sans-serif;
 #availableHotels{
 font-weight:100;
 }
+
+
+#tabDetails{
+  width: 821.33;
+  height: 355;
+  background-color: white;
+}
+#roomDetails{
+  width: 821.33;
+  background-color: white;
+}
+#dateSection{
+  width: 821.33;
+  height: 184;
+  background-color: white;
+}
+#paymentDetails{
+  transform: translateY(-70rem);
+}
+
+#PaymentSection{
+  width: 394.96;
+  height: 474;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+}
+
